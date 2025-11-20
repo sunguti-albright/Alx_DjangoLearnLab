@@ -1,0 +1,9 @@
+<h1> Book List</h1>
+<ul>
+    {% for book in book_list %}
+    <li>
+        {{book.title}} by {{book.author}} was published in {{book.publication_year}}
+
+    </li>
+    {% endfor %}
+</ul>
